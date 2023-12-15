@@ -1,4 +1,9 @@
-<body style=<div class="<body style=<div class="stars">
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body style="&lt;div" class="&lt;body style=&lt;div class=">
   <div class="star"></div>
   <div class="star"></div>
   <div class="star"></div>
@@ -17,4 +22,6 @@
   <div class="star"></div>
   <div class="star"></div>
   <div class="star"></div>
-  <div class=">
+  <div class="&gt;"></div>
+</body>
+</html>
