@@ -1,3 +1,4 @@
+@import "./new.css";
 @mixin sp-layout {
   @media screen and (max-width: 750px) {
     @content;
