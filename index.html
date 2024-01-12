@@ -6,11 +6,33 @@
   html, body {
     height: 100%;
     margin: 0;
+    padding: 2rem;
     background: linear-gradient(to bottom, #0000ff, #87CEFA);
     color: white; 
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  h1 {
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
+    padding: 1rem;
+    border-radius: 0.5em;
   }
   a {
     color: #FFD700;
+    text-decoration: none;
+    margin: 0.5rem 0;
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+  }
+  a:hover, a:focus {
+    color: #ffffff;
+    transform: scale(1.05);
+  }
+  nav ul {
+    list-style-type: none;
+    padding: 0;
   }
   </style>
 </head>
