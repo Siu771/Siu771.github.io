@@ -33,15 +33,25 @@
     border-radius: 5px;
     background-color: rgba(0,0,0,0.1);
     transition: background-color 0.5s ease;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
 
   a:hover, a:active {
     background-color: rgba(0,0,0,0.3);
+    transform: translateY(-2px);
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
   }
 
   h1 {
     margin: 20px 0;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    animation: fadeIn 2s;
   }
+
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  } 
   </style>
 </head>
 <body>
