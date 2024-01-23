@@ -23,20 +23,20 @@
 
   nav ul li {
     display: inline-block;
-    margin: 10px;
+    margin: 20px; /* Increased margin for more space between links */
   }
 
   a {
-    color: #FFD700;
+    color: #FFD700; /* Adjusted color for better contrast */
     text-decoration: none;
     padding: 10px;
     border-radius: 5px;
     background-color: rgba(0,0,0,0.1);
-    transition: background-color 0.5s ease;
+    transition: all 0.5s ease; /* Added 'all' for all properties to transition */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
 
-  a:hover, a:active {
+  a:hover, a:active, a:focus { /* Added focus state for keyboard navigation */
     background-color: rgba(0,0,0,0.3);
     transform: translateY(-2px);
     box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
@@ -51,7 +51,7 @@
   @keyframes fadeIn {
     0% {opacity:0;}
     100% {opacity:1;}
-  } 
+  }
   </style>
 </head>
 <body>
@@ -59,16 +59,16 @@
 
   <nav aria-labelledby="main-title">
     <ul>
-      <li><a href="https://ds1399.github.io/mgalternative.github.io/">MGAlternative Fork</a></li>
-      <li><a href="https://ds1399.github.io/blackboro.github.io/">blackboro Fork</a></li>
-      <li><a href="https://ds1399.github.io/unbl0ck.github.io/">unbl0ck fork</a></li>
-      <li><a href="https://ds1399.github.io/chilibowlflash/">CBF games</a></li>
-      <li><a href="https://123moviesfree.cool">123movies</a></li>
-      <li><a href="https://ds1399.github.io/msgweb/">msgweb</a></li>
-      <li><a href="https://ds1399.github.io/mountain658.github.io/">mountain games</a></li>
-      <li><a href="https://5.161.68.227/">some apps work Astroid v3</a></li>
-      <li><a href="https://ds1399.github.io/840p.ml/breakoid/">breakoid</a></li>
+      <li><a href="https://ds1399.github.io/mgalternative.github.io/" title="MGAlternative Fork">MGAlternative Fork</a></li>
+      <li><a href="https://ds1399.github.io/blackboro.github.io/" title="Blackboro Fork">blackboro Fork</a></li>
+      <li><a href="https://ds1399.github.io/unbl0ck.github.io/" title="Unbl0ck Fork">unbl0ck fork</a></li>
+      <li><a href="https://ds1399.github.io/chilibowlflash/" title="Chili Bowl Flash Games">CBF games</a></li>
+      <li><a href="https://123moviesfree.cool" title="123Movies">123movies</a></li>
+      <li><a href="https://ds1399.github.io/msgweb/" title="Message Web">msgweb</a></li>
+      <li><a href="https://ds1399.github.io/mountain658.github.io/" title="Mountain Games">mountain games</a></li>
+      <li><a href="https://5.161.68.227/" title="Astroid v3 Apps">some apps work Astroid v3</a></li>
+      <li><a href="https://ds1399.github.io/840p.ml/breakoid/" title="Breakoid">breakoid</a></li>
     </ul>
   </nav>
 </body>
-</html>
+</html> 
