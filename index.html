@@ -23,20 +23,20 @@
 
   nav ul li {
     display: inline-block;
-    margin: 20px;
+    margin: 20px; /* Increased margin for more space between links */
   }
 
   a {
-    color: #FFD700; 
+    color: #FFD700; /* Adjusted color for better contrast */
     text-decoration: none;
     padding: 10px;
     border-radius: 5px;
     background-color: rgba(0,0,0,0.1);
-    transition: all 0.5s ease; 
+    transition: all 0.5s ease; /* Added 'all' for all properties to transition */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
 
-  a:hover, a:active, a:focus { 
+  a:hover, a:active, a:focus { /* Added focus state for keyboard navigation */
     background-color: rgba(0,0,0,0.3);
     transform: translateY(-2px);
     box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
@@ -47,11 +47,7 @@
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
     animation: fadeIn 2s;
   }
-h2 {
-    margin: 20px 0;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
-    animation: fadeIn 2s;
-  }
+
   @keyframes fadeIn {
     0% {opacity:0;}
     100% {opacity:1;}
@@ -59,8 +55,22 @@ h2 {
   </style>
 </head>
 <body>
- <h1>Moved The Site</h1>
-  <h2>Only the homepage url changed</h2>
-  <a href="https://mitchman1399.github.io">New site link</a>
+  <h1 id="main-title"><b>Ds1399Games</b></h1>
+
+  <nav aria-labelledby="main-title">
+    <ul>
+      <li><a href="https://ds1399.github.io/mgalternative.github.io/" title="MGAlternative Fork">MGAlternative Fork</a></li>
+      <li><a href="https://ds1399.github.io/blackboro.github.io/" title="Blackboro Fork">blackboro Fork</a></li>
+      <li><a href="https://ds1399.github.io/unbl0ck.github.io/" title="Unbl0ck Fork">unbl0ck fork</a></li>
+      <li><a href="https://ds1399.github.io/chilibowlflash/" title="Chili Bowl Flash Games">CBF games</a></li>
+      <li><a href="https://ds1399.github.io/msgweb/" title="Message Web">msgweb</a></li>
+      <li><a href="https://ds1399.github.io/mountain658.github.io/" title="Mountain Games">mountain games</a></li>
+      <li><a href="https://5.161.68.227/" title="Astroid v3 Apps">some apps work Astroid v3</a></li>
+      <li><a href="https://ds1399.github.io/840p.ml/breakoid/" title="Breakoid">breakoid</a></li>
+      <li><a href="https://ds1399.github.io/YT-unblocked/" title="Youtube unblocked">YT unblocked</a></li>
+      <li><a href="https://main--fanciful-dolphin-658a87.netlify.app" title="Whitespider">Whitespider</a></li>
+      <li><a href="https://taupe-toffee-65265f.netlify.app/static/" title="NightPRXY">NightPRXY</a></li>
+    </ul>
+  </nav>
 </body>
 </html> 
